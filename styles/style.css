@@ -1,0 +1,56 @@
+/* baseline ruleset for all text */
+html {
+    font-size: 10px; /* px = pixels, we have 10 pixel high base size*/
+    font-family: 'Montserrat', sans-serif; /* font-family defines the base font we'll be using*/
+    background-color: magenta;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: greenyellow;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h6 {
+    text-align: end;
+    font-size: 8px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+}
+
+li, p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+blockquote {
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+body {
+    width: 1000px;
+    margin: 100px auto;
+    background-color: #e5e0e0;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  } 
