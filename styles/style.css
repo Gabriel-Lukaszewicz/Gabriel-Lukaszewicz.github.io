@@ -24,6 +24,7 @@ h6 {
 
 img {
     display: block;
+    max-width: 100%;
     width: max-content;
     border-radius: 8px;
     margin: 10px;
@@ -60,8 +61,8 @@ a {
     align-content: center;
 }
 
-.new-page:hover {
-    background-color: white; /* Green */
+/*.new-page:hover {
+    background-color: white; 
     color: #5c6163;
     border: 2px solid #5c6163;
-}
+}*/
