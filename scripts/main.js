@@ -1,6 +1,19 @@
 
 // alert("what's good bitch"); //makes a pop-up box appear in the browser when loading the page
+document.getElementById('1').onclick = replyclick()
+document.getElementById('2').onclick = replyclick()
+document.getElementById('3').onclick = replyclick()
+document.getElementById('4').onclick = replyclick()
 
+const replyclick =  function() {
+    links = {
+        "fun":"html/fun/fun-index.html",
+        "projects":"html/projects/projects-index.html",
+        "research":"html/research/research-index.html",
+        "essays": "html/essays/essays-index.html"
+    }
+    window.location.href = links[this.id];
+}
 
 
 
