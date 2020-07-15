@@ -2,6 +2,13 @@
 // alert("what's good bitch"); //makes a pop-up box appear in the browser when loading the page
 
 
+
+
+
+
+
+
+// original stuff from Mozzila tutorial
 let myImage = document.querySelector('img');
 
 myImage.onclick = function () {
