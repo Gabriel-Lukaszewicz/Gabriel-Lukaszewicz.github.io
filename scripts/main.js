@@ -7,10 +7,10 @@ document.getElementById('4').onclick = replyclick()
 
 const replyclick =  function() {
     links = {
-        "fun":"html/fun/fun-index.html",
-        "projects":"html/projects/projects-index.html",
-        "research":"html/research/research-index.html",
-        "essays": "html/essays/essays-index.html"
+        "1":"html/fun/fun-index.html",
+        "2":"html/projects/projects-index.html",
+        "3":"html/research/research-index.html",
+        "4": "html/essays/essays-index.html"
     }
     window.location.href = links[this.id];
 }
