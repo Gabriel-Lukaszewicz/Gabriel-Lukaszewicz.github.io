@@ -15,38 +15,26 @@
 
 
 
-  <button class="new-page" onclick="replyclick()" id="1">Fun and Games</button>
-
-
-
-
+  <button class="new-page" onclick="replyclick(this.id)" id="1">Fun and Games</button>
+  <button class="new-page" onclick="replyclick(this.id)" id="2">Projects</button>
+  <button class="new-page" onclick="replyclick(this.id)" id="3">Research</button>
+  <button class="new-page" onclick="replyclick(this.id)" id="4">Essays</button>
   <script>
-    function  replyclick(){
+    function  replyclick(clicked_id){
       const links = {
         "1": "html/fun/fun-index.html",
         "2": "html/projects/projects-index.html",
         "3": "html/research/research-index.html",
         "4": "html/essays/essays-index.html"
       }
-      location.href = links[this.id];
+      location.href = links[clicked_id];
     }
   </script>
 
 
 
 
-  <button class="new-page" onclick="myFunction()">Projects</button>
-  <script>
-    function nextFunction() {
-      location.href = "html/projects/projects-index.html"
-    }
-  </script>
-
-
-
-  <button class="new-page" id="3">Research</button>
-  <button class="new-page" id="4">Essays</button>
-
+  
   <h1>Elysium</h1>
   <img src="images/yosemite.jpg" alt="yosemite image">
   <blockquote>"Grundle Huncho is the GOAT American change my mind"</blockquote>
