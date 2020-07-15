@@ -10,10 +10,17 @@
 
 <body>
   <!--links to other pages on site-->
-  <button class="new-page" onclick="myFunction()">Fun and Games</button>
+  <button class="new-page" onclick="replyclick()" id="1">Fun and Games</button>
+
   <script>
-    function myFunction() {
-      location.href = "https://www.w3schools.com"
+    const replyclick = function () {
+      const links = {
+        "1": "html/fun/fun-index.html",
+        "2": "html/projects/projects-index.html",
+        "3": "html/research/research-index.html",
+        "4": "html/essays/essays-index.html"
+      }
+      location.href = links[this.id];
     }
   </script>
 
