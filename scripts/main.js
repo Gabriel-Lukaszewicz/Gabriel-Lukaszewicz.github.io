@@ -1,7 +1,10 @@
 
 // alert("what's good bitch"); //makes a pop-up box appear in the browser when loading the page
-button1 = document.querySelector("#1")
-button1.onclick = () => window.location.href = "../html/fun/fun-index.html"
+let button1 = document.querySelector("#1")
+button1.onclick = function()  {
+    window.location.href = "../html/fun/fun-index.html"
+} 
+
 document.getElementById("2").onclick = replyclick()
 document.getElementById("3").onclick = replyclick()
 document.getElementById("4").onclick = replyclick()
