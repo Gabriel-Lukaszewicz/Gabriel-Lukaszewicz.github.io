@@ -9,7 +9,6 @@ h1 {
     margin: 0;
     padding: 20px 0;    
     color: #850487;
-    text-shadow: 3px 3px 1px black;
     text-align: center;
     font-size: 60px;
 }
@@ -27,7 +26,7 @@ h6 {
 img {
     display: block;
     margin: 20px auto;
-    width: 600px;
+    width: max-content;
 }
 
 li, p {
