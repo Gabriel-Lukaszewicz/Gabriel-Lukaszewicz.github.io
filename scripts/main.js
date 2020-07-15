@@ -9,8 +9,8 @@ const replyclick = function () {
     const links = {
         "1": "../html/fun/fun-index.html",
         "2": "../html/projects/projects-index.html",
-        "3": "../html/research/research-index.html",
-        "4": "../html/essays/essays-index.html"
+        "3": "html/research/research-index.html",
+        "4": "html/essays/essays-index.html"
     }
     location.href = links[this.id];
 }
