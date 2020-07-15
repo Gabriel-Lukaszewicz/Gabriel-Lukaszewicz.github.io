@@ -5,7 +5,11 @@ button1.onclick = function()  {
     window.location.href = "../html/fun/fun-index.html"
 } 
 
-document.getElementById("2").onclick = replyclick()
+let button2 = document.querySelector("#2")
+button2.onclick = function() {
+    window.location.href = "html/projects/projects-index.html"
+}
+
 document.getElementById("3").onclick = replyclick()
 document.getElementById("4").onclick = replyclick()
 
