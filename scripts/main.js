@@ -6,11 +6,11 @@ document.getElementById("3").onclick = replyclick()
 document.getElementById("4").onclick = replyclick()
 
 const replyclick =  function() {
-    let links = {
-        "1":"html/fun/fun-index.html",
-        "2":"html/projects/projects-index.html",
-        "3":"html/research/research-index.html",
-        "4": "html/essays/essays-index.html"
+    const links = {
+        "1":"../html/fun/fun-index.html",
+        "2":"../html/projects/projects-index.html",
+        "3":"../html/research/research-index.html",
+        "4":"../html/essays/essays-index.html"
     }
     window.location.href = links[this.id];
 }
