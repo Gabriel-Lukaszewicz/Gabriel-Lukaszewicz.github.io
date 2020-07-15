@@ -2,7 +2,7 @@
 html {
     font-size: 10px; /* px = pixels, we have 10 pixel high base size*/
     font-family: 'Montserrat', sans-serif; /* font-family defines the base font we'll be using*/
-    background-color: magenta;
+    background-color: #b3f2f1;
 }
 
 h1 {
@@ -47,10 +47,17 @@ a {
     color: blue;
 }
 
-body {
+.new-page  {
+    border: 2px black;
+    margin: auto;
+    background-color: coral;
+    padding: 0 20px 20px 20px;
+}
+
+/* body {
     width: 1000px;
     margin: 100px auto;
     background-color: #e5e0e0;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
-  } 
+  } */

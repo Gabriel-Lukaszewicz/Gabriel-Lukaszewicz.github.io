@@ -2,6 +2,13 @@
 // alert("what's good bitch"); //makes a pop-up box appear in the browser when loading the page
 
 
+
+
+
+
+
+
+// original stuff from Mozzila tutorial
 let myImage = document.querySelector('img');
 
 myImage.onclick = function () {
@@ -25,6 +32,8 @@ function setUserName() {
         myHeading.textContent = 'Grundle Huncho approves of ' + myName + ' ya little bitch.';
     }
 }
+
+
 
 myButton.onclick = function () {
     setUserName();
