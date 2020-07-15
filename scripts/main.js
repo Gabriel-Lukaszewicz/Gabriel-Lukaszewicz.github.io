@@ -22,7 +22,7 @@ const replyclick =  function() {
 
 
 // original stuff from Mozzila tutorial
-let myImage = document.querySelector('img');
+/* let myImage = document.querySelector('img');
 
 myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
@@ -48,6 +48,7 @@ function setUserName() {
 
 
 
-myButton.onclick = function () {
+ myButton.onclick = function () {
     setUserName();
 }
+*/
