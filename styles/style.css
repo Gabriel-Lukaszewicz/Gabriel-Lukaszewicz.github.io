@@ -42,7 +42,7 @@ h6 {
 
 .container .centered {
     position: absolute;
-    top: 50px;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
