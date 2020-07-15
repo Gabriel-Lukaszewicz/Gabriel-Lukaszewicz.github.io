@@ -1,5 +1,7 @@
 
 // alert("what's good bitch"); //makes a pop-up box appear in the browser when loading the page
+
+// handles buttons clicked on in the index.html file
 function replyclick(clicked_id) {
     const links = {
         "1": "html/fun/fun-index.html",
