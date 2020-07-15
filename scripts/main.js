@@ -6,7 +6,7 @@ document.getElementById("3").onclick = replyclick()
 document.getElementById("4").onclick = replyclick()
 
 const replyclick =  function() {
-    links = {
+    let links = {
         "1":"html/fun/fun-index.html",
         "2":"html/projects/projects-index.html",
         "3":"html/research/research-index.html",
