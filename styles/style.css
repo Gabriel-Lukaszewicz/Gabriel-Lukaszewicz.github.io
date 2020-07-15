@@ -22,13 +22,26 @@ h6 {
     font-size: 8px;
 }
 
-img {
+/* img {
     display: block;
     max-width: 100%;
     width: max-content;
     border-radius: 8px;
     margin: 10px;
     
+} */ 
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 li, p {
