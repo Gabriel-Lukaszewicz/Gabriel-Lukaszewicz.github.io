@@ -2,20 +2,15 @@
 // alert("what's good bitch"); //makes a pop-up box appear in the browser when loading the page
 
 
-let button2 = document.querySelector("#2")
-button2.onclick = function() {
-    window.location.href = "html/projects/projects-index.html"
-}
-
 document.getElementById("3").onclick = replyclick()
 document.getElementById("4").onclick = replyclick()
 
-const replyclick =  function() {
+const replyclick = function () {
     const links = {
-        "1":"../html/fun/fun-index.html",
-        "2":"../html/projects/projects-index.html",
-        "3":"../html/research/research-index.html",
-        "4":"../html/essays/essays-index.html"
+        "1": "../html/fun/fun-index.html",
+        "2": "../html/projects/projects-index.html",
+        "3": "../html/research/research-index.html",
+        "4": "../html/essays/essays-index.html"
     }
     window.location.href = links[this.id];
 }
