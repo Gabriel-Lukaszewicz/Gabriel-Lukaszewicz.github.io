@@ -12,7 +12,7 @@ const replyclick = function () {
         "3": "../html/research/research-index.html",
         "4": "../html/essays/essays-index.html"
     }
-    window.location.href = links[this.id];
+    location.href = links[this.id];
 }
 
 
